@@ -35,26 +35,40 @@ This project includes secure user authentication features with proper backend fo
 ## APIs Included
 
 1. Register User
+```http
 POST /api/auth/register
+```
+
 
 2. Login User
+```http
 POST /api/auth/login
+```
 
-4. Forgot Password (Send OTP)
+3. Forgot Password (Send OTP)
+```http
 POST /api/auth/forgot-password
+```
 
-6. Reset Password
+4. Reset Password
+```http
 POST /api/auth/reset-password
-Swagger Documentation
+```
 
-# Run the server and open:
+# Swagger Documentation
+Run the server and open:
 http://localhost:5000/api-docs
+
 
 # Run Locally
 1. Install dependencies:
+```http
 npm install
+```
 
-2. Start server:
+3. Start server:
+```http
 npm run dev
-Author
+```
+
 
