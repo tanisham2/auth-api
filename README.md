@@ -45,14 +45,14 @@ POST /api/auth/register
 POST /api/auth/login
 ```
 
-3. Forgot Password (Send OTP)
+3. Forget Password (Send OTP)
 ```http
-POST /api/auth/forgot-password
+POST /api/auth/forget-password
 ```
 
-4. Reset Password
+4. Update Password
 ```http
-POST /api/auth/reset-password
+POST /api/auth/update-password
 ```
 
 # Swagger Documentation
