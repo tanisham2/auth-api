@@ -101,6 +101,7 @@ const sendOTPEmail = async (toEmail, otp) => {
               </p>
             </td>
           </tr>
+
         </table>
       </td>
     </tr>
